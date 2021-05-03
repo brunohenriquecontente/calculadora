@@ -1,19 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+
+*{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 21px;
+}
+
 .main {
     margin: 0 auto;
     width: 330px;
-    height: 400px;
+    height: 425px;
     background-color: rgb(48, 48, 48);
     color: whitesmoke;
 }
 
-header {
+h1 {
     text-align: center;
+    padding-top: 5px;
+}
+
+#resultado {
+    background-color: rgba(255, 255, 255, 0.849);
+    width: 96.5%;
+    height: 100%;
+    margin: 5px auto;
+    border: 1px solid salmon;
+    font-size: 20pt;
+    color: black;
+    text-align: right;
+    line-height: 50px;
+
 }
 
 table {
     height: 300px;
-    width: 100%;
+    width: 98%;
     text-align: center;
+    margin: 0 auto;
 }
 
 table tr td {
@@ -27,6 +50,6 @@ table tr td:last-child {
     border: white 1px solid;
 }
 
-table tr:last-child {
+.zero-button {
     text-align: left;
 }
