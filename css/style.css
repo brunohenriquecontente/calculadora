@@ -1,0 +1,16 @@
+
+.main {
+    margin: 0 auto;
+    width: 500px;
+    height: 600px;
+    background-color: rgb(69, 75, 75);
+    color: whitesmoke;
+}
+
+header{
+    text-align: center;
+}
+
+table tr td{
+    border: tomato 1px solid;
+}
