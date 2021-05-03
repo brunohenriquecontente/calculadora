@@ -61,11 +61,3 @@ table tr td:last-child:hover {
     border: tomato 1px solid;
     color: tomato;
 }
-
-/* .zero-button {
-    text-align: left;
-} */
-
-input{
-    display: none;
-}
