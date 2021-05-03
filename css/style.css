@@ -2,7 +2,6 @@
 
 *{
     font-family: 'Roboto Slab', serif;
-    color: white;
     font-size: 21px;
 }
 
@@ -41,13 +40,26 @@ table {
 
 table tr td {
     border: tomato 1px solid;
-    background-color: rgb(111, 111, 111);
+    background-color: rgb(97, 97, 97);
     padding: 15px;
+}
+
+table tr td:hover{
+    border: white 1px solid;
+    background-color: rgb(111, 111, 111); 
+    color:  rgb(255, 99, 71);
+    font-weight: 900;
 }
 
 table tr td:last-child {
     background-color: tomato;
     border: white 1px solid;
+}
+
+table tr td:last-child:hover {
+    background-color: white;
+    border: tomato 1px solid;
+    color: tomato;
 }
 
 .zero-button {
