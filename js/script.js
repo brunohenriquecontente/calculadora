@@ -1,13 +1,10 @@
 
 var resultado = document.getElementById('resultado')
-resultado.innerHTML = '0' 
+// resultado.innerHTML = '12'
 
-var btn = document.getElementsByTagName('td')
-
-
-btn.addEventListener('click', function (){
-    resultado.innerHTML = btn.value
-
+var botao = document.getElementsByTagName('tr,td')
+botao.addEventListener("click", function(){
+conteudobotao = botao.innerHTML
 })
 
 
